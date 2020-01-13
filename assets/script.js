@@ -26,6 +26,7 @@ $( document ).ready(function() {
         }
     })
 displayTime();
+
 });
 
 function setStorage(){
@@ -40,7 +41,25 @@ function setStorage(){
 })
 }
 
+function getStorage(){
+//     const items = {...localStorage};
+//     console.log(items)
+//     for (const property in items) {
+//         console.log(`${property}: ${items[property]}`);
+//         if (items[property]){
+//             let $(`#${property}`)
+//         } 
+//     }
+    $(textarea).each(function(index, value){
+        let savedTask = localStorage.getItem(value.id)
+        console.log(savedTask);
+        $(this).text(savedTask);
+    })
+}
+
+
 
 (saveBtn).on("click", setStorage);
 
 
+getStorage();
