@@ -5,7 +5,7 @@
 A basic work day planner for normal business hours 9 am to 5 pm. The time blocks rotate color to indicate the present, past, or future hour. The user can add tasks in the provided text area and save them to their day. 
 
 
-[Deploy Here](https://natashacwolfe.github.io/day-planner/)
+[Plan your day!](https://natashacwolfe.github.io/day-planner/)
 
 
 ![Day Planner](assets/images/screenshot.png)
